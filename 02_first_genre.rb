@@ -31,3 +31,12 @@ people = {
 # Expected output is:
 #   jazz
 #   funk
+
+
+people.each do |person, about|
+    puts about[:preferences][:favorite_genres].first
+  end
+
+# people.each do |x, y|
+#   p [:people][:preferences][:favorite_genres][0]
+# end

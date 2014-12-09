@@ -31,3 +31,7 @@ people = {
 #
 # Expected output is:
 #   replied yes + 1
+
+
+p people["sue"][:correspondence].last[:description]
+# p people["sue"][:correspondence][-1][:description]

@@ -31,3 +31,11 @@ people = {
 # Expected output is:
 #   Jenkins
 #   Summers
+
+p people["joe"][:last_name]
+p people["sue"][:last_name]
+
+
+# people each do |person, trait|
+#   p last_name
+# end

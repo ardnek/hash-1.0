@@ -33,3 +33,14 @@ people = {
 #   Summers
 #
 # HINT: Start by finding who joe is sitting next to, then find that person in the hash.
+
+p people[people["joe"][:sitting_next_to].to_s][:last_name]
+
+# p people["joe"][:sitting_next_to].to_s
+# p people["sue"]
+#
+# people[:key]
+# => value
+
+# this is true:
+# p people[people["joe"][:sitting_next_to].to_s] == people["sue"]

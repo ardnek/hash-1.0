@@ -31,3 +31,6 @@ people = {
 #
 # Expected output is:
 #   fish
+
+
+p people["sue"][:preferences][:meal]

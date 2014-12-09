@@ -31,3 +31,7 @@ people = {
 #
 # Expected output is:
 #   11/4/2014
+
+p people["joe"][:correspondence].first[:date]
+
+# p people["joe"][:correspondence][0][:date]
